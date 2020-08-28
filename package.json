@@ -1,0 +1,19 @@
+{
+  "name": "webpack-plugin-demo",
+  "version": "1.0.0",
+  "description": "webpack插件开发demo",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js"
+  },
+  "keywords": [
+    "webpack",
+    "webpack plugin"
+  ],
+  "author": "urnotzane",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}

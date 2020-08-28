@@ -1,0 +1,1 @@
+export const nameNode = document.createTextNode('urnotzane');
