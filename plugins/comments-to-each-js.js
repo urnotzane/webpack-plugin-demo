@@ -23,6 +23,8 @@ class CommentsToEachJs {
         if (author) {
           if (author instanceof Array) {
             comment += ` * @author ${author.join(', ')}\n`
+          } else if (typeof author === 'string') {
+            comment += ` * @author ${author}\n`
           }
         }
         if (date) {
